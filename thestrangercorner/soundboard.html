@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic soundboard</title>
+    <script type="text/javascript">
+        function play_sound(clicked_id) {
+          var audio = new Audio(clicked_id + ".mp3");
+          audio.play();
+        }
+      </script>
+</head>
+<body>
+    <div class="header">
+        <divclass="header-center">
+            <a class="active" href="index.html">Home</a>
+            <a href="soundboard.html">Soundboard</a>
+            <a href="numbergame.html">Number game</a>
+            <a href="hangman.html">Hangman</a>
+        </div> 
+    </div>
+
+    <span><h1>Lindsay Lin</h1></span>
+    <div class="center">
+    <img src = "lindsay1.jpeg" alt="lindsay" width="200px">
+    </div>
+    <div class="container">
+        <div class="center">
+          <button id="hello" onClick="play_sound(this.id)">Hello</button>
+          <button id="yes" onClick="play_sound(this.id)">Yes</button>
+          <button id="no" onClick="play_sound(this.id)">No</button>
+          <button id="howareyou" onClick="play_sound(this.id)">How are you</button>
+          <button id="imfine" onClick="play_sound(this.id)">I'm fine</button>
+          <button id="ty" onClick="play_sound(this.id)">Thank yew</button>
+          <button id="ariachant" onClick="play_sound(this.id)">The Aria Chant</button>
+        </div>
+      </div>
+      
+</body>
+</html>
