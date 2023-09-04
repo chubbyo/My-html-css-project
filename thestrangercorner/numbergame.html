@@ -15,6 +15,16 @@
             <a href="hangman.html">Hangman</a>
         </div> 
     </div>
-    <h3> Number game still in progress...</h3>
+
+    <h1>Guess My Number Game</h1>
+    <p>Guess a number between 1 and 10:</p>
+    <!-- notice how  the input, button and p have an ID?-->
+    <!-- This is so our Javascript can identify these elements and manipulate them-->
+    <input type="number" id="guessField">
+    <button id="guessSubmit">Submit Guess</button>
+    <p id="message"></p>
+    <!-- Much like we link an external CSS sheet here an external javascript is being linked-->
+    <script src="numberGuessLogic.js"></script>
+  
 </body>
 </html>

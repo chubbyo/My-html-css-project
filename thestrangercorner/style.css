@@ -119,6 +119,7 @@ span{
   width: 100px;
   height: 100px;
 }
+
 .center {
   flex: auto;
   display: flex;
@@ -136,4 +137,11 @@ button {
   font-weight: 600;
   font: italic;
   font-family: cursive;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 125px);
+  grid-template-rows: repeat(3, 125px);
 }
